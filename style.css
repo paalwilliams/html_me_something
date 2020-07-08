@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 p,
@@ -83,4 +84,8 @@ blockquote::before {
 
 blockquote::after {
   content: '"';
+}
+
+footer {
+  text-align: center;
 }
